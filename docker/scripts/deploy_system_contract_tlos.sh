@@ -17,6 +17,9 @@ cleos push action eosio.token issue '[ "eosio", "10000000000.0000 TLOS", "initia
 # Deploy msig contract
 cleos set contract eosio.msig contracts/eosio.msig eosio.msig.wasm eosio.msig.abi
 
+# Deploy evm contract
+cleos set contract eosio.evm contracts/eosio.evm eosio.evm.wasm eosio.evm.abi
+
 # Activate PREACTIVATE_FEATURE
 curl -X POST http://127.0.0.1:8888/v1/producer/schedule_protocol_feature_activations -d '{"protocol_features_to_activate": ["0ec7e080177b2c02b278d5088611686b49d739925a92d9bfcacd7fc6b74053bd"]}'
 sleep 2
