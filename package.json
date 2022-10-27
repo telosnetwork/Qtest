@@ -1,6 +1,6 @@
 {
   "name": "qtest-js",
-  "version": "0.4.0",
+  "version": "0.5.1",
   "description": "eosio testing library",
   "main": "dist/index.js",
   "license": "MIT",
@@ -37,6 +37,16 @@
     "type": "git",
     "url": "git+https://github.com/generEOS/Qtest.git"
   },
+  "keywords": [
+    "qtest",
+    "testing",
+    "unit-test",
+    "eosio",
+    "wax",
+    "telos",
+    "antelope",
+    "leap"
+  ],
   "author": "",
   "bugs": {
     "url": "https://github.com/generEOS/Qtest/issues"
